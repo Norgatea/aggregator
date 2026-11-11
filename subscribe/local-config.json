@@ -2,13 +2,37 @@
   "sites": [
     {
       "name": "free-dog",
-      "subscribe": ["https://raw.githubusercontent.com/v2raydog-node/free-nodes/main/v2ray.txt"],
+      "subscribe": [
+        "https://raw.githubusercontent.com/v2raydog-node/free-nodes/main/v2ray.txt"
+      ],
       "domain": "",
       "enable": true,
       "rename": "",
       "include": "",
       "exclude": "",
-      "push_to": ["free"],
+      "push_to": [
+        "free"
+      ],
+      "ignore_default_exclude": true,
+      "check_alive": true,
+      "max_rate": 2.5,
+      "count": 2,
+      "coupon": "",
+      "require_tls": false
+    },
+    {
+      "name": "pawdroid",
+      "subscribe": [
+        "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
+      ],
+      "domain": "",
+      "enable": true,
+      "rename": "",
+      "include": "",
+      "exclude": "",
+      "push_to": [
+        "free"
+      ],
       "ignore_default_exclude": true,
       "check_alive": true,
       "max_rate": 2.5,
@@ -22,13 +46,50 @@
     "exclude": "",
     "max_fails": 5,
     "include_nodes": true,
-    "persist": {"subscribe": "crawledsubs", "nodes": "crawledproxies"},
-    "task": {"rename": "", "include": "", "exclude": ""},
-    "telegram": {"enable": true, "pages": 2, "exclude": "", "channels": {}},
-    "google": {"enable": false, "exclude": "", "limit": 20, "days": 7, "exclude_sites": [], "push_to": []},
-    "yandex": {"enable": false, "exclude": "", "days": 3, "pages": 2, "exclude_sites": [], "push_to": []},
-    "github": {"enable": true, "pages": 1, "push_to": ["free"], "exclude": "", "exclude_repos": []},
-    "twitter": {"enable": true, "users": {}},
+    "persist": {
+      "subscribe": "crawledsubs",
+      "nodes": "crawledproxies"
+    },
+    "task": {
+      "rename": "",
+      "include": "",
+      "exclude": ""
+    },
+    "telegram": {
+      "enable": true,
+      "pages": 2,
+      "exclude": "",
+      "channels": {}
+    },
+    "google": {
+      "enable": false,
+      "exclude": "",
+      "limit": 20,
+      "days": 7,
+      "exclude_sites": [],
+      "push_to": []
+    },
+    "yandex": {
+      "enable": false,
+      "exclude": "",
+      "days": 3,
+      "pages": 2,
+      "exclude_sites": [],
+      "push_to": []
+    },
+    "github": {
+      "enable": true,
+      "pages": 1,
+      "push_to": [
+        "free"
+      ],
+      "exclude": "",
+      "exclude_repos": []
+    },
+    "twitter": {
+      "enable": true,
+      "users": {}
+    },
     "repositories": [],
     "pages": [],
     "scripts": []
@@ -37,17 +98,36 @@
     "free": {
       "emoji": true,
       "list_only": true,
-      "targets": {"clash": "free-clash", "v2ray": "free-v2ray", "singbox": "free-singbox"}
+      "targets": {
+        "clash": "free-clash",
+        "v2ray": "free-v2ray",
+        "singbox": "free-singbox"
+      }
     }
   },
   "storage": {
     "engine": "local",
     "items": {
-      "free-clash": {"folder_id": "subs", "file_id": "clash.yaml"},
-      "free-v2ray": {"folder_id": "subs", "file_id": "v2ray.txt"},
-      "free-singbox": {"folder_id": "subs", "file_id": "singbox.json"},
-      "crawledsubs": {"folder_id": "subs", "file_id": "crawledsubs.txt"},
-      "crawledproxies": {"folder_id": "subs", "file_id": "crawledproxies.txt"}
+      "free-clash": {
+        "folder_id": "subs",
+        "file_id": "clash.yaml"
+      },
+      "free-v2ray": {
+        "folder_id": "subs",
+        "file_id": "v2ray.txt"
+      },
+      "free-singbox": {
+        "folder_id": "subs",
+        "file_id": "singbox.json"
+      },
+      "crawledsubs": {
+        "folder_id": "subs",
+        "file_id": "crawledsubs.txt"
+      },
+      "crawledproxies": {
+        "folder_id": "subs",
+        "file_id": "crawledproxies.txt"
+      }
     }
   }
 }
