@@ -1,36 +1,42 @@
 proxies:
-  - {name: 🇫🇷 法国-里昂-1, server: 83.206.1.225, port: 8090, type: http, tls: true, skip-cert-verify: true}
-  - {name: 🇩🇪 德国-法兰克福-3, server: 158.173.154.1, port: 9002, type: http, tls: true, skip-cert-verify: true}
-  - {name: 🇳🇱 荷兰-阿姆斯特丹-7, server: 84.17.47.149, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 葵兴数据中心, server: sclass-b1.catcat321.com, port: 20027, type: trojan, password: d7563108-615c-4338-a7bd-77f359869a4a, sni: hk.catxstar.com, udp: true}
-  - {name: 🇭🇰 香港 葵兴数据中心 2, server: sclass-b1.catcat321.com, port: 20028, type: trojan, password: d7563108-615c-4338-a7bd-77f359869a4a, sni: hk.catxstar.com, udp: true}
-  - {name: 🇺🇸 美国-BOARDMAN-2, server: 44.248.167.117, port: 8443, type: http, tls: true, skip-cert-verify: true}
-  - {name: 🇳🇱 荷兰-阿姆斯特丹-1, server: 109.104.153.43, port: 33336, type: ssr, cipher: chacha20-ietf, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 🇮🇹 意大利-07, server: 202.50.253.99, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: 🇸🇪 瑞典-01, server: 5.83.158.96, port: 43000, type: vless, uuid: 0809eed6-5204-49b8-8312-b82a10024022, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: U_dxFnbfesmgSwL-SlpvGYFbpY5vlJ1kb52knlCXkkI, short-id: "8cfe1563" }, servername: 5.83.158.96, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇮🇪 爱尔兰-都柏林-1, server: 34.249.214.108, port: 443, type: http, tls: true, skip-cert-verify: true}
+  - {name: 🇺🇸 美国-03, server: 162.35.101.168, port: 44333, type: vless, uuid: 256eab05-abfc-4747-8671-01e92fb95192, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: vhtQBb9x0bXClfNSSGals7dBBUEDZ7PuW0sllAsyzDM, short-id: "a1b2c3d4" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
   - {name: 🇳🇱 荷兰-阿姆斯特丹-5, server: 103.97.88.154, port: 443, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true}
-  - {name: 🇩🇪 德国-纽伦堡-1, server: 213.109.163.119, port: 443, type: http, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇨 塞舌尔, server: 196.199.122.2, port: 443, type: vless, uuid: 4201786b-d99b-4147-a5f0-20d47acddb81, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE, short-id: "42426c882c5fcd41" }, servername: 7aa271t.es1.h1clayd.click, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇱🇻 拉脱维亚-里加-1, server: 185.219.159.16, port: 443, type: http, password: None, tls: true, skip-cert-verify: true}
-  - {name: 🇮🇹 意大利-05, server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: 🇮🇹 意大利-08, server: 202.50.253.90, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: 🇳🇱 荷兰-阿姆斯特丹-6, server: 84.17.47.148, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true}
-  - {name: 🇳🇱 荷兰-哈勒姆-2, server: 51.159.225.197, port: 19362, type: http, tls: true, skip-cert-verify: true}
-  - {name: 🇮🇹 意大利-04, server: 202.50.253.45, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: 🇺🇸 美国-聖荷西-1, server: 198.200.57.142, port: 22335, type: hysteria, auth_str: github.com/Alvin9999-newpac/fanqiang, auth-str: github.com/Alvin9999-newpac/fanqiang, up: 11, down: 55, protocol: udp, skip-cert-verify: true, alpn: [h3], udp: true}
-  - {name: 🇺🇸 美国-爾灣-3, server: 38.247.141.135, port: 443, type: http, tls: true, skip-cert-verify: true}
-  - {name: 🇮🇹 意大利-10, server: 202.50.253.81, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: 🇮🇹 意大利-02, server: 202.50.253.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: 🇺🇸 美国 XEROX, server: 13.143.176.250, port: 443, type: vless, uuid: 555b35c4-30f9-40c6-a61a-7f53ab1bea45, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk, short-id: "1a2b3c4d" }, servername: images.porsche.com, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇺🇸 美国-03, server: 196.245.52.187, port: 443, type: vless, uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839, tls: true, reality-opts: {public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY, short-id: "ba2a3dce62b99092" }, servername: 04535dt.us8.h1clayd.click, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇳🇱 荷兰-阿姆斯特丹-8, server: 84.17.47.125, port: 9002, type: http, tls: true, skip-cert-verify: true}
-  - {name: 🇪🇸 西班牙, server: 196.196.149.80, port: 443, type: vless, uuid: 4201786b-d99b-4147-a5f0-20d47acddb81, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE, short-id: "42426c882c5fcd41" }, servername: 7aa271t.es1.h1clayd.click, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇩🇪 德国, server: 178.18.158.12, port: 43000, type: vless, uuid: a741d82e-6087-466d-b590-f24e2245d12c, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: KeFxVlEEuDN8alZBsrXiX9yrcY2-H7lcdzXWjtrIWy0, short-id: "a9c3bda4" }, servername: 178.18.158.12, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇫🇮 芬兰-赫尔辛基-1, server: 13.140.86.73, port: 6079, type: ss, cipher: chacha20-ietf-poly1305, password: VYSbsLYaCBSquKAq7Tc059Bppmhzs2Yw, udp: true}
-  - {name: 🇮🇹 意大利-01, server: 202.50.253.54, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: 🇳🇱 荷兰-阿姆斯特丹-9, server: 84.17.47.123, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true}
-  - {name: 🇮🇹 意大利-09, server: 202.50.253.36, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-3, server: 158.173.154.1, port: 9002, type: http, tls: true, skip-cert-verify: true}
+  - {name: 🇯🇵 日本 东京AMAZON数据中心, server: zfapi.zalolink.com, port: 43149, type: vless, uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: cvong7paE8XIzzbKWgV5iUruP1pBqI2IhMuBHc8c0UE, short-id: "15aa0ad4" }, servername: psstatic.cdn.bcebos.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇫🇷 法国-里昂-1, server: 83.206.1.225, port: 8090, type: http, tls: true, skip-cert-verify: true}
+  - {name: 🇦🇱 阿尔巴尼亚-01, server: 196.245.52.183, port: 443, type: vless, uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839, tls: true, reality-opts: {public-key: zbz--PMjcIC4Ggr3j-ibDf0fzXRTj0lM_HzjPJyMkVE, short-id: "50a749f0eccb628c" }, servername: 15b171g.nl7.h1clayd.click, client-fingerprint: firefox, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: 5b79e8a94241}, udp: true}
+  - {name: 🇫🇮 芬兰-01, server: 196.196.208.20, port: 443, type: vless, uuid: 2208b003-78b1-453c-b5ca-ce847ff0efd6, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: jRHg94HymqCnI9LLFHMBxvi9URv_AOMgJxhLkOVuCl8, short-id: "0bfd7d104dcc9cae" }, servername: 45b545t.fi7.h1clayd.click, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: 🇮🇹 意大利-06, server: 202.50.253.54, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
   - {name: 🇩🇪 德国-法兰克福-2, server: 158.173.154.5, port: 9002, type: http, tls: true, skip-cert-verify: true}
-  - {name: 🇮🇹 意大利-03, server: 202.50.253.63, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: 🇳🇱 荷兰-哈勒姆-2, server: 51.159.225.197, port: 19362, type: http, tls: true, skip-cert-verify: true}
+  - {name: 🇮🇹 意大利-02, server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: 🇳🇱 荷兰-阿姆斯特丹-7, server: 84.17.47.149, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true}
+  - {name: 🇫🇮 芬兰-赫尔辛基-1, server: 13.140.86.73, port: 6079, type: ss, cipher: chacha20-ietf-poly1305, password: VYSbsLYaCBSquKAq7Tc059Bppmhzs2Yw, udp: true}
+  - {name: 🇮🇹 意大利-03, server: 202.50.253.36, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: 🇮🇹 意大利-01, server: 202.50.253.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: 🇺🇸 美国-爾灣-3, server: 38.247.141.135, port: 443, type: http, tls: true, skip-cert-verify: true}
+  - {name: 🇮🇹 意大利-08, server: 202.50.253.81, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: 🇳🇱 荷兰-阿姆斯特丹-6, server: 84.17.47.148, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true}
+  - {name: 🇮🇹 意大利-05, server: 202.50.253.99, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: 🇮🇹 意大利-09, server: 202.50.253.90, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: 🇪🇸 西班牙-02, server: 196.199.122.2, port: 443, type: vless, uuid: 4201786b-d99b-4147-a5f0-20d47acddb81, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE, short-id: "42426c882c5fcd41" }, servername: 7aa271t.es1.h1clayd.click, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: 🇮🇹 意大利-10, server: 202.50.253.45, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: 🇩🇪 德国-纽伦堡-1, server: 213.109.163.119, port: 443, type: http, tls: true, skip-cert-verify: true}
+  - {name: 🇫🇷 法国 国际航空电讯集团公司, server: sclass-c2.catcat321.com, port: 20051, type: trojan, password: d9064589-74af-432a-9390-5d8a9da281bf, sni: hk.catxstar.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国-04, server: 196.245.52.187, port: 443, type: vless, uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839, tls: true, reality-opts: {public-key: LsaTohbE6CqCH9UbYKwIybVXG3E5Wgz_X9czqas2LAI, short-id: "9acff4d98e2fbcc6" }, servername: 35295cx.us8.h1clayd.click, client-fingerprint: firefox, network: xhttp, xhttp-opts: {path: /1812842934d4, host: 35295cx.us8.h1clayd.click}, udp: true}
+  - {name: 🇱🇻 拉脱维亚-里加-1, server: 185.219.159.16, port: 443, type: http, password: None, tls: true, skip-cert-verify: true}
+  - {name: 🇺🇸 美国-聖荷西-1, server: 198.200.57.142, port: 22335, type: hysteria, auth_str: github.com/Alvin9999-newpac/fanqiang, auth-str: github.com/Alvin9999-newpac/fanqiang, up: 11, down: 55, protocol: udp, skip-cert-verify: true, alpn: [h3], udp: true}
+  - {name: 🇳🇱 荷兰-01, server: 79.182.39.131, port: 443, type: vless, uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839, tls: true, reality-opts: {public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU, short-id: "d3bd772514c87d28" }, servername: 717252g.nl8.h1clayd.click, client-fingerprint: chrome, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: 204adda7e3da}, udp: true}
+  - {name: 🇭🇰 香港 阿里云, server: 47.85.201.22, port: 443, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=, udp: true}
+  - {name: 🇯🇵 日本-01, server: 154.36.158.197, port: 8388, type: ss, cipher: aes-256-gcm, password: BeaUf9c0AEWH40Pu, udp: true}
+  - {name: 🇮🇷 伊朗 2, server: 194.60.228.97, port: 443, type: vless, uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec, tls: true, servername: base.hosamobenl.co.uk, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇪🇪 爱沙尼亚, server: 196.196.148.85, port: 443, type: vless, uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839, tls: true, reality-opts: {public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs, short-id: "361d0dd59c70516f" }, servername: 5d0319t.nl7.h1clayd.click, client-fingerprint: firefox, network: tcp, udp: true}
   - {name: 🇳🇱 荷兰-哈勒姆-3, server: 51.159.225.196, port: 23856, type: http, username: "null", password: "null", tls: true, skip-cert-verify: true}
-  - {name: 🇮🇹 意大利-06, server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
-  - {name: 🇺🇸 美国-02, server: 217.217.47.140, port: 50769, type: vless, uuid: 6f6318b1-3ba5-4106-9365-8a8e19f04bd3, tls: true, encryption: mlkem768x25519plus.native.0rtt.Q87mgMmTfbfB0W6gBMUjZGuHSPmo8Ot7-obrW5-BD3o, reality-opts: {public-key: 7Q09Z_KU9vXvif4-pLfVc_Zwil-X4k41Iesv-HCk4wI, short-id: "7f3d68ed44" }, servername: ops.gx.nvidia.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇳🇱 荷兰-阿姆斯特丹-9, server: 84.17.47.123, port: 9002, type: http, password: None, tls: true, skip-cert-verify: true}
+  - {name: 🇮🇹 意大利-04, server: 202.50.253.27, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: 🇳🇱 荷兰-阿姆斯特丹-8, server: 84.17.47.125, port: 9002, type: http, tls: true, skip-cert-verify: true}
+  - {name: 🇳🇱 荷兰-阿姆斯特丹-1, server: 109.104.153.43, port: 33336, type: ssr, cipher: chacha20-ietf, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 🇮🇹 意大利-07, server: 202.50.253.63, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true}
+  - {name: 🇺🇸 美国-BOARDMAN-2, server: 44.248.167.117, port: 8443, type: http, tls: true, skip-cert-verify: true}
